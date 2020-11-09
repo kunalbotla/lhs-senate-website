@@ -1,0 +1,44 @@
+body {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", system, sans-serif;
+  color:white;
+  background-color: black;
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+container {
+  color: blue;
+  background-color: blue;
+}
+
+
+.circle {
+  border-radius: 50%
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  justify-content: space-between;
+
+}
+
+.flex-container-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: right;
+  justify-content: space-between;
+  align-items: center;
+
+}
